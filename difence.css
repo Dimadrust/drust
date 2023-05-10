@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+body{
+    background: url(1647857642_2-gamerwall-pro-p-fon-dlya-saita-krasivie-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: aliceblue;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    text-shadow: 1px 1px 3px rgb(189, 232, 35);
+    position: relative;
+    font-size: 25px;
+    color: #13d2d8;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    text-shadow: 1px 1px 2px #13d2d8;
+    display: inline-block;
+    font-size: 25px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: rgb(211, 255, 17);
+}
+.dima{
+    height: fit-content;
+    align-items: center;
+}
+.logo1{
+    color: black;
+    text-shadow: 1px 1px 3px #0023ea;
+    font-size: 23px;
+    font-family: sans-serif;
+    position: relative;
+    text-decoration: underline;
+}
+hr{
+    color: #000000;
+}
+.text{
+    color: rgb(118, 228, 101);
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Tahoma;
+}
+.text:hover{
+    color: #0023ea;
+    transition: .3s;
+}
+.ul a:hover{
+    color: crimson;
+    transition: .5s;
+}
+.ul a{
+    color: rgb(0, 217, 255);
+    font-size: 17px;
+    text-align: center;
+}
+.foto{
+    border-radius: 50%;
+    background: red;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+style{
+    border-radius: 50%;
+}
